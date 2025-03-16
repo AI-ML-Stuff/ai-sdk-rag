@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:worker": "opennextjs-cloudflare",
+    "preview": "npm run build:worker && wrangler dev"
   },
   "dependencies": {
     "@ai-sdk/groq": "^1.1.14",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250313.0",
+    "@opennextjs/cloudflare": "^0.5.11",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
