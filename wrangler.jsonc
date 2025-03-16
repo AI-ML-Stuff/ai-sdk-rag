@@ -16,11 +16,9 @@
 		"enabled": true
 	},
 	"kv_namespaces": [
-    // Create a KV binding with the binding name "NEXT_CACHE_WORKERS_KV"
-    // to enable the KV based caching:
-    // {
-    //   "binding": "NEXT_CACHE_WORKERS_KV",
-    //   "id": "<BINDING_ID>"
-    // }
+    {
+      "binding": "NEXT_CACHE_WORKERS_KV",
+      "id": "4f9dfa47cffd41efade418ceb5dab4e5"
+    }
   ]
 }
